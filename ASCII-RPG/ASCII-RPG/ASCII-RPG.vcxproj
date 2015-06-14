@@ -66,13 +66,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Block.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="InitialiseGame.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Block.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="InitialiseGame.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "InitialiseGame.h"
+#include "GameEngine.h"
 
 int main()
 {
-	InitialiseGame initGame;
+	GameEngine engine;
 	
 	system("PAUSE");
 
